@@ -1,0 +1,33 @@
+# AI Video Assistant - Requirements
+# Python 3.10 - 3.12 recommended (3.11 is the safest)
+
+# Audio / Video
+yt-dlp[default]
+pydub
+
+# Speech-to-Text (local Whisper)
+openai-whisper
+torch
+
+# Translation (Hinglish -> English)
+deep-translator
+
+# LLM - LangChain + Groq
+langchain-core
+langchain-groq
+langchain-text-splitters
+
+# RAG
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+
+# UI
+streamlit
+watchdog
+
+# Utilities
+python-dotenv
+numpy
+requests
+tqdm
